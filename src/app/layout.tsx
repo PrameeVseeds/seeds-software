@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Custom software development and ready-to-use business software solutions for modern businesses.",
+  icons: { icon: "/logos/logo.png", apple: "/logos/logo.png" },
   openGraph: {
     title: "SeedStack Labz",
     description: "Thoughtful software for the way your business works.",
@@ -34,3 +35,4 @@ export default function RootLayout({
     </html>
   );
 }
+
